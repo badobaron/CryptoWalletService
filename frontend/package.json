@@ -1,0 +1,35 @@
+{
+  "name": "CryptoWalletService",
+  "version": "1.0.0",
+  "description": "View all Crypto Accounts in one place.",
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^3.5.6",
+    "angular": "^1.5.8",
+    "angular-resource": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "eslint": "^3.1.1",
+    "eslint-loader": "^1.4.1",
+    "json-loader": "^0.5.4",
+    "lodash": "^4.13.1",
+    "mustache-loader": "^0.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.1.1",
+    "eslint-loader": "^1.4.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techtyler/CryptoWalletService.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/techtyler/CryptoWalletService/issues"
+  },
+  "homepage": "https://github.com/techtyler/CryptoWalletService#readme"
+}

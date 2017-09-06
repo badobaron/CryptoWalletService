@@ -1,1 +1,6 @@
 .idea/
+backend/CryptoWalletService/db.sqlite3
+fontend/node_modules/
+node_modules/
+frontend/dist
+backend/CryptoWalletService/CryptoWalletService/__pycache__/
