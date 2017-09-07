@@ -12,11 +12,12 @@ _urlPrefixes = {
 
 /* Components */
 require("./components/home/home");
-
+require("./components/wallet/wallet");
 
 /* App Dependencies */
 angular.module("myApp", [
   "Home", // this is our component
+  "Wallet", // also ours
   "ngResource",
   "ngRoute"
 ]);
