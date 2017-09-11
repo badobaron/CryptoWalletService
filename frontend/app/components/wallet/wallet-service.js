@@ -13,6 +13,7 @@ function WalletService($resource) {
    */
   that.WalletResource = $resource(_urlPrefixes.API + "viewWallet");
 
+
   /**
    * A convenience method for retrieving a wallet object.
    * Retrieval is done via a GET request to the /api/viewWallet endpoint.

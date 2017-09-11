@@ -9,17 +9,19 @@ module.exports = {
   watch: true,
 
   module: {
-    rules: [{
-      test: /\.js$/,
-      enforce: "pre",
-      exclude: /node_modules/,
-      loader: "eslint-loader",
-      options: {
-        configFile: "./config/eslint.json"
-      }
-    }],
+    rules: [
+      {
+        test: /\.js$/,
+        enforce: "pre",
+        exclude: /node_modules/,
+        loader: "eslint-loader",
+        options: {
+          configFile: "./config/eslint.json"
+        }
+      },
+      { test: /\.css$/, use: [ "style-loader", "css-loader" ]
+      }],
     loaders: [
-      { test: /\.css$/, loader: "style!css" },
       { test: /\.html$/, loader: "mustache-loader" },
       { test: /\.json$/, loader: "json-loader" }]
   },

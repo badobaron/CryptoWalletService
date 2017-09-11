@@ -15,15 +15,16 @@ require("./components/home/home");
 require("./components/wallet/wallet");
 
 /* App Dependencies */
-angular.module("myApp", [
+angular.module("cws", [
   "Home", // this is our component
   "Wallet", // also ours
   "ngResource",
   "ngRoute"
+
 ]);
 
 /* Config Vars */
 var routesConfig = require("./routes");
 
 /* App Config */
-angular.module("myApp").config(routesConfig);
+angular.module("cws").config(routesConfig);
